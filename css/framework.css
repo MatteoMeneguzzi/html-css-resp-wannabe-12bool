@@ -27,6 +27,7 @@
 	/* se serve */
 	padding-left: 15px;
 	padding-right: 15px;
+	text-align: center;
 }
 
 [class*="col-"].pad-0 {
@@ -138,12 +139,6 @@
 	margin-left: 100%;
 }
 
-/* IMG */
-
-img {
-	width: 50%;
-}
-
 /* TABLET */
 
 @media screen and (min-width: 420px) {
@@ -248,20 +243,6 @@ img {
 	.offset-md-12 {
 		margin-left: 100%;
 	}
-
-	/* img */
-
-	img {
-		width: 100%;
-	}
-
-	#lezioni .col-xs-12:first-child img {
-		width: 100%;
-	}
-
-	/* #lezioni .col-xs-12:last-child img {
-		width: 100%;
-	} */
 }
 
 /* TABLET */
@@ -367,20 +348,6 @@ img {
 
 	.offset-md-12 {
 		margin-left: 100%;
-	}
-
-	/* img */
-
-	img {
-		width: 200px;
-	}
-
-	#lezioni .col-xs-12:first-child img {
-		width: 220px;
-	}
-
-	#lezioni .col-xs-12:last-child img {
-		width: 250px;
 	}
 }
 
@@ -488,18 +455,4 @@ img {
 	.offset-lg-12 {
 		margin-left: 100%;
 	}
-
-	/* img */
-
-	/* img {
-		width: 250px;
-	}
-
-	#lezioni .col-xs-12:first-child img {
-		width: 270px;
-	}
-
-	#lezioni .col-xs-12:last-child img {
-		width: 270px;
-	} */
 }
